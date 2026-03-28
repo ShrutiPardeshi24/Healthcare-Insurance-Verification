@@ -1,2 +1,3 @@
 # Healthcare-Insurance-Verification
 This end-to-end project simulates US healthcare insurance eligibility verification using mock APIs, checks coverage, books an appointment if eligible, or prompts for renewal permission if not. It's built in Python with Streamlit for a user-friendly web interface, aligning with your expertise in healthcare AI and data workflows.
+The system takes patient details (name, DOB, member ID, payer), simulates a HIPAA 270/271 eligibility check via a mock endpoint, parses active/inactive coverage, and automates next steps. It uses mock data from Stedi for testing without real payer access, ensuring HIPAA-like compliance in simulation.
